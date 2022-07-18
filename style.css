@@ -1,0 +1,1392 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*font-family: 'Kumbh Sans', sans-serif;*/
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0 20px 0 20px;
+    width: 1240px;
+    margin: 0 auto;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.questions__section {
+    position: absolute;
+    left: -320px;
+    top: 32px;
+}
+
+.questions__section p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: black;
+}
+
+.questions__color {
+    color: #EE1D25;
+    font-size: 25px;
+    font-weight: 1000;
+}
+
+.skype__color {
+    font-size: 25px;
+}
+
+.whatsapp__color {
+    font-size: 25px;
+    color: #167F6B;
+}
+
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.header__description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+
+.logo {
+    width: auto;
+    height: 60px;   
+}
+
+.header__logo-and-welcome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    height: 80px;
+}
+
+.header__welcome-text {
+    margin-left: 5%;
+    width: 262px;   
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header__welcome-text__rome {
+    display: flex;
+}
+
+.header__welcome-text__rome a {
+    font-weight: 600;
+    padding-left: 5px;
+    color: #0061A3;
+    text-decoration: none;
+}
+
+.header__welcome-text__balance {
+    display: flex;
+}
+
+.header__welcome-text__balance #P {
+    padding-left: 5px;
+}
+
+.header__social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 55px;
+    padding-right: 20px;
+}
+
+.header__social-logo {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 24px;
+}
+
+.header__language-section {
+    display: flex;
+    justify-content: space-between;
+    width: 115px;
+    align-items: center;
+}
+
+#flag__USA {
+    border-radius: 2px;
+}
+
+.header__language-section p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 34px;
+    min-width: 710px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    background-color: #F30000;
+    border-radius: 8px;
+}
+
+.menu__items {
+    display: flex;
+    justify-content: space-around;
+    width: 605.85px;
+    align-items: center;
+}
+
+.menu__links {
+    list-style: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.menu__my-account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    white-space: nowrap;
+    height: 34px;
+    width: 178px;
+    align-items: center;
+    background-color:#0061A3; 
+    border-radius: 8px;
+}
+
+.container__banner {
+    background-image: url(banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    height: 462px;
+    border-radius: 8px;
+}
+
+.card__section {
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    margin: 30px 15px 0 15px;
+}
+
+.card__item {
+    height: 100%;
+    max-width: 380px;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 5px;
+}
+
+.card__description {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+}
+
+.card__item__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 15px 5px 5px;
+}
+
+.card__item__header h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.card__item__header a {
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration-line: underline;
+    color: #0061A3;
+}
+
+.card__description p{
+    padding: 0 3px 6px 5px;
+    max-width: 300px;
+    color: #5F5F5F;
+    font-size: 14px;
+}
+
+#svg__computer {
+    margin: 10px 0 0 5px;
+}
+
+#img__buy {
+    margin: 9px 0 0 5px;
+}
+
+#svg__money {
+    margin-top: 1px;
+}
+
+.lottery__section {
+    margin-top: 75px;
+    height: 216px;
+}
+
+.lottery__section h1 {
+    font-weight: 600;
+    font-size: 24px;
+    white-space: nowrap;
+    padding: 3px;
+}
+
+.lottery__card__section {
+    margin: 30px 15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.lottery__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lottery__card {
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    height: 150px;
+    width: 380px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, white 61.5%, #0061A3 38.5%);
+}
+
+.lottery__card__description {
+    display: flex;
+    flex-direction: row;    
+}
+
+#lottery__item-ellipse {
+    margin: 5.38px 23.25px 5.18px 28.45px ;
+}
+
+.lottery__card__description img {
+    position: absolute;
+    top: 16.22px;
+    left: 62.77px;
+}
+
+#ball__logo {
+    position: absolute;
+    top: 25.75px;
+    left: 55.35px;    
+}
+
+#power__logo {
+    top: 11.8px;
+    left: 64.31px;     
+}
+
+.lottery__description__headline {
+    display: flex;
+    height: 36px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.lottery__description__headline h3 {
+    margin-left: 7px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+}
+
+.lottery__description h1 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 22px;
+    color: #13902A;
+    padding-top: 5px;
+}
+
+.lottery__description__button-and-timer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lottery__description__button-and-timer button {
+    width: 171px;
+    height: 36px;
+    background: #F7D300;
+    border: #0061A3;
+    border-radius: 8px;
+    margin-top: 13.43px;
+    margin-left: 12.25px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.lottery__description__timer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20.43px;
+    padding-right: 72.1px;
+}
+
+.lottery__description__timer h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-left: 4px;    
+}
+
+.lottery-online__section {
+    margin-top: 76px;
+    height: 653px;
+}
+
+.lottery-online__title {
+    background: #F30000;
+    border-radius: 8px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lottery-online__title h1 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.lottery-online__wrapper {
+    margin: 15px 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+.lottery-online__wrapper__item {
+    height: 270px;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper__ellipse {
+    position: absolute;
+    margin: 12.09px 56.1px;
+}
+
+.wrapper__logo {
+    position: absolute;
+    margin: 40.83px 64.42px;
+}
+
+.wrapper__star {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 174px;    
+}
+
+.wrapper__description {
+    margin-top: 134px;
+}
+
+.wrapper__description-title {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper__description-title h3 {
+    margin-left: 3px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+}
+
+.wrapper__description h2 {
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.wrapper__description-timer {
+    display: flex;
+    margin-top: 8px;
+    justify-content: center;
+}
+
+.wrapper__description-timer h3 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #0061A3;
+    margin-left: 4px;
+}
+
+#more-details {
+    margin-left: 1034px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #0061A3;
+}
+
+.wrapper__description button {
+    width: 182px;
+    height: 38px;
+    background: #F7D300;
+    border: white;
+    border-radius: 8px;
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;   
+}
+
+.winner-card__section {
+    height: 441px;
+    margin: 75px 15px;
+    display: flex;
+}
+
+.won__section {
+    width: 775px;
+}
+
+.latest-winner__section {
+    margin-left: 15px;
+    width: 380px;
+}
+
+.won__title {
+    width: 100%;
+    background: #F30000;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.won__description {
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    margin-top: 15px;
+    height: 382px;
+}
+
+.won__description__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.won__description__title h3 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    color: #000000;
+    margin-left: 20px;
+}
+
+.won__description__title h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 22px;
+    color: #0061A3;
+    margin-left: 10px;
+}
+
+.shaun__section {
+    margin: 24px 93.76px 0 20.09px;
+    display: flex;
+}
+
+.shaun__story {
+    flex-direction: column;
+    margin-left: 15.33px;
+}
+
+.shaun__story h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.shaun__story p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 15px;
+    margin-bottom: 31.81px;
+}
+
+.shaun__story a {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    text-decoration-line: underline;
+    color: #0061A3;
+    display: flex;
+    justify-content: center;
+}
+
+.lotto-play__section {
+    display: flex;
+    justify-content: space-between;
+    margin: 21.99px 94.29px 0 83.68px;
+}
+
+.lotto__results {
+    display: flex;
+    align-items: center;
+}
+
+.lotto__results h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 120%;
+}
+
+.results__number {
+    margin-left: 10px;
+    position: relative;
+}
+
+#results__data {
+    position: absolute;
+    top: 25px;
+    left: 12.5px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    text-align: center;
+}
+
+.lotto-play__section button {
+    width: 232px;
+    height: 40px;
+    background: #F7D300;
+    border: white;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px; 
+}
+
+.latest-winner__title {
+    width: 100%;
+    background: #F30000;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;    
+}
+
+.latest-winner__prizes {
+    height: 98px;
+    width: 100%;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.latest-winner__prizes__tickets {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.latest-winner__prizes p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.latest-winner__prizes h3 {
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 22px;
+    color: #13902A;
+}
+
+.latest-winner__prizes__tickets h1 {
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.latest-winner__prizes__tickets h2 {
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.latest-winner__card {
+    margin-top: 30px;
+    width: 100%;
+    height: 254px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.latest-winner__card__item {
+    height: 78px;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    display: flex;
+}
+
+.latest-winner__card__item img {
+    padding: 10px 15.43px 10px 15px;
+}
+
+.winner__card__description {
+    margin-top: 10px;
+}
+
+#winner__card__date {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.winner__card__name {
+    display: flex;
+}
+
+#winner__name {
+    padding-left: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+#winner__draw {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #5F5F5F;
+}
+
+.faq__section {
+    margin: 75px 15px
+}
+
+.faq__item {
+    margin-top: 30px;
+    width: 66.32%;
+}
+
+.faq__line {
+    display: flex;
+    height: 37px;
+    border-bottom: 1px solid #E0E0E0;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.faq__line {
+ margin-top: 15px;
+}
+
+.faq__line:nth-child(1) {
+ margin-top: 0;
+}
+
+.faq__line p {
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #0061A3;
+    margin-bottom: 10px;
+}
+
+.faq__line svg {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    height: 455px;
+    background: linear-gradient(0deg, rgba(224, 224, 224, 0.47) 0%, rgba(225, 225, 225, 0.16) 20.75%, rgba(255, 254, 254, 0.26) 84.14%, #FFFFFF 126.52%);
+    width: 100%;
+    margin-top: 178.36px;
+    position: relative;
+}
+
+.footer__section {
+    margin: 0 123.27px 0 108.73px;
+    padding-top: 30px;
+    height: 369.37px;
+    width: 968px;
+}
+
+.footer__social {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 23.73px;
+    align-items: center;
+}
+
+#star__back {
+    position: absolute;
+    z-index: -1;
+    margin-top: -103.36px;
+}
+
+#star__back__mobile {
+    display: none;
+}
+
+.customer__service {
+    display: flex;
+}
+
+.customer__service__description {
+    flex-direction: column;
+    width: 163px;
+    padding-left: 15px;
+}
+
+.customer__service__description h3 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    white-space: nowrap;    
+}
+
+.customer__service__description p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.social__link {
+    width: 128px;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.footer__description {
+    margin-top: 36.37px;
+    height: 291px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__description__links h3 {
+    font-size: 16px;
+}
+
+.useful__links {
+    margin-top: 15px;
+    width: 183px;
+}
+
+.useful__links p {
+    margin-top: 5px;
+    height: 21px;
+}
+
+.useful__links p:nth-child(1) {
+    margin-top: 0px;
+}
+
+#useful__links__mobile {
+    display: none;
+}
+
+.footer__description__smartwinners {
+    height: 202.27px;
+    width: 249px;
+}
+
+.footer__description__smartwinners h3 {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.footer__description__smartwinners p {
+    font-size: 12px;
+    margin-top: 15px;
+    line-height: 120%;
+}
+
+#adress {
+    font-size: 13px;
+    margin-top: 5.27px;
+    line-height: 21px;
+}
+
+.footer__description__methods h3 {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.paymen__logo {
+    margin-top: 10px;
+    width: 152px;
+    display: grid;
+    grid-template-columns: repeat(3, 44px);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.footer__description__security h3 {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.security__img {
+    margin-top: 12px;
+    display: flex;
+    align-items: flex-start;
+    width: 140.52px;
+    justify-content: space-between;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+#avatar__svg {
+    display: none;
+}
+
+#winner__card__mobil {
+    display: none;
+}
+
+#all-lotteries {
+    display: none;
+}
+
+@media screen and (max-width: 960px) {
+   
+    body {
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        width: 100%;
+        font-family: 'Roboto';
+        font-style: normal;
+    }
+
+    .questions__section {
+        display: none;
+    }
+
+    .header {
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 84px;
+        width: 100%;
+    }
+
+    .mobile-menu {
+        display: flex;
+        margin-left: 18px;
+        align-items: center;
+    }
+
+    .header__description {
+        justify-content: center;
+        width: 44%;
+    }
+
+    .logo {
+        width: 100%;
+        height: auto;
+    }
+
+    .header__social {
+        display: none;
+    }
+
+    #avatar__svg {
+        display: flex;
+        margin-right: 16px;
+    }
+
+    .header__welcome-text {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        width: 200%;
+        left:-50%;
+        top: 70px;
+        margin: 0;
+    }
+
+    .header__welcome-text__rome {
+        white-space: nowrap;
+    }
+
+    .header__welcome-text__balance {
+        white-space: nowrap;
+    }
+
+    .container__banner {
+        height: 48vw;
+        margin-top: 25px;
+        border-radius: 0px;
+        background: url(banner_mobil.png);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .card__section {
+        flex-direction: column;
+        height: 70%;
+        margin: 16px 16px 0 16px;
+    }
+
+    .card__item {
+        margin-top: 12px;
+        max-width: 100vw;
+    }
+    
+    .card__description {
+        width: 100vw;
+    }
+    
+    .card__description p {
+        max-width: 100vw;
+    }
+
+    .card__item:nth-child(1) {
+        margin-top: 0;
+    }
+
+    .lottery__section {
+        margin-top: 30px;
+        height: 100%;
+    }
+
+    .lottery__section h1 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-left: 16px;
+    }
+
+    .lottery__card__section {
+        flex-direction: column;
+        margin: 18px 15px 0 15px;
+    }
+
+    .lottery__card__description {
+        justify-content: space-between;
+        padding-right: 23.24px;
+    }
+
+    .lottery__description__timer {
+        padding-right: 50px;
+    }
+
+    .lottery__item {
+        padding-top: 15px;
+    }
+
+    .lottery__item:nth-child(1) {
+        padding-top: 0px;
+    }
+
+    .lottery-online__section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 32px;
+        height: 100%;    
+    }
+
+    .lottery-online__wrapper {
+        margin: 16px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 2px;
+        grid-row-gap: 15px;
+    }
+
+    .lottery-online__wrapper__item:nth-child(odd) {
+        display: none;
+    }
+
+    .lottery-online__wrapper__item:nth-child(1) {
+        display: flex;
+    }
+
+    .lottery-online__wrapper__item {
+        height: 255px;
+        width: 95%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .wrapper__star {
+        margin-left: 135.3px;
+    }
+
+    .wrapper__description {
+        margin-top: 120px;
+    }
+
+    .wrapper__description button {
+        width: 139px;
+    }
+
+    #more-details {
+        display: none;
+    }
+
+    #all-lotteries {
+        display: flex;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        text-decoration-line: underline;
+        color: #0061A3;
+        overflow-y: hidden;
+        justify-content: flex-end;
+        margin-right: 33.5px;
+    }
+
+    .winner-card__section {
+        margin: 31px 16px; 
+        flex-direction: column; 
+        height: 2000px; 
+        margin-bottom: 0px; 
+        height: 1145px;
+    }
+
+    .won__description {
+        height: 535px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .won__description__title {
+        margin-top: 18px;
+    }
+
+    .won__description__title img {
+        width: 40px;
+        height: auto;
+    }
+    
+    .won__description__title h3 {
+        font-size: 27px;
+        line-height: 36px;
+    }
+
+    .won__description__title h2 {
+        font-size: 27px;
+        line-height: 22px;
+    }
+
+    .won__section {
+        width: 100%;
+        height: 596px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .shaun__section {
+        flex-direction: column;
+        margin: 0 0 0 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 343px;
+    }
+
+    .shaun__section img {
+        margin-top: 12px;
+        width: 343px;
+        height: 169.65px;
+    }
+
+    .lottery-online__title {
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+
+    .lotto__results {
+        position: absolute;
+        white-space: nowrap;
+        top: 58%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .lotto-play__section button {
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .lottery__card {
+        width: 100vw;
+    }
+
+    .shaun__story {
+        margin-top: 72px;
+        margin-left : 16px;
+        margin-right: 8px;
+    }
+
+    .shaun__story h3 {
+        text-align: center;
+    }
+
+    .shaun__story p {
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    .shaun__story a {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 120%;
+        color: #007AFF;
+        text-decoration-line: none;
+    }
+
+    .lotto-play__section {
+        margin-top: 16px;
+    }
+
+    .latest-winner__section {
+        margin-top: 32px;
+        margin-left: 0px;
+        height: 1017px;
+        width: calc(100vw - 30px);
+    }
+
+    .latest-winner__title {
+        height: 50px;
+    }
+
+    .latest-winner__card {
+        margin-top: 16px;
+        overflow-y: hidden;
+        height: 379px;
+    }
+
+    #winner__card__mobil {
+        display: flex;
+    }
+
+    .latest-winner__card__item {
+        margin-top: 8px;
+    }
+
+    .latest-winner__card__item:nth-child(1) {
+        margin-top: 0px;
+    }
+    
+    #star__back {
+        display: none;
+    }
+
+    #star__back__mobile {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        top: -50px;
+        width: 100vw;
+    }
+
+    .footer__section {
+        margin: 0 0 0 0;
+        width: 100vw;
+    }
+
+    .customer__service {
+        margin-left: 15.73px;
+        align-items: center;
+    }
+
+    .footer__social {
+        display: block;
+    }
+
+    .social__link {
+        position: absolute;
+        top: 300px;
+    }
+
+    .footer__description {
+        flex-direction: column;
+    }
+
+    .footer__description {
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+
+    #useful__links__desktop {
+        display: none;
+    }
+
+    #useful__links__mobile {
+        display: flex;
+        white-space: nowrap;
+        height: 151px;
+        width: 100%;
+        margin-top: 12px;
+        justify-content: space-between;
+        font-size: 14px;
+        line-height: 21px;
+        padding-right: 44px;
+    }
+
+    .footer__description__smartwinners {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .footer__description__smartwinners p {
+        margin-top: 0.26px;
+        width: 100%;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 120%;
+    }
+
+    #adress {
+        font-size: 10px;
+        line-height: 21px;
+    }
+
+    .footer__description__payment {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer {
+        width: 100vw;
+        height: 615px;
+        margin-top: 130px;
+        
+    }
+
+    .footer__description__security {
+        margin-right: 32.48px;
+    }
+
+    .footer__description__security h3 {
+        margin-top: 0px;
+    }
+
+    .footer__description__payment {
+        margin-top: 20px;
+    }
+
+    .social__link {
+        right: 81px;
+        top: 545px;
+        width: 92px;
+    }
+
+    .social__link svg {
+        width: 28%;
+    }
+
+    .customer__service__description {
+        margin-left: 16px;
+    }
+    
+    .customer__service__description h3 {
+        font-size: 14px;
+        line-height: 120%;
+    }
+
+    .customer__service__description p {
+        font-size: 12px;
+        line-height: 120%;
+    }
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    .menu{
+        display: none;
+    }
+    .faq_section {
+        display: none;
+    }
+}
+
+/* Сверху | Справа | Снизу | Слева */
